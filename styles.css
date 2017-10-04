@@ -1,0 +1,266 @@
+.listContnet{
+    text-transform: capitalize;
+}
+.navbar-inverse {
+     background-image: linear-gradient(to bottom,#EEE048 0,#EEE048 100%) !important;
+  border:none;  
+}
+.hambImg{
+    position:fixed;
+    color:#146eb4;
+}
+.contactTxt{
+    font-size: 35px;
+}
+.navDiv{
+    border-bottom: 1px solid #146eb4;
+    border-right: 1px solid #146eb4;
+ text-align:center;
+ text-transform:capitalize;
+}
+#spanText{
+    margin-left:5%;
+}
+/*navigation menu*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: rgb(0,0,0);*/
+    background-color: #146eb4;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left:5%;
+}
+.list-overlay{
+    margin-left: 15px;
+    font-size: 16px;
+}
+.overlay a {
+    padding-right: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #EEE048;
+    display: block;
+    transition: 0.3s;
+    line-height:50px;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.iconSize{
+    font-size:20px;
+}
+.navbarStyle{
+    margin-bottom:0px;
+}
+
+
+/*banner style starts*/
+.banner{
+    background: url(banner1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	min-height:770px;
+}
+.name{
+    margin-top: 3.85em;
+    margin-right: 0px;
+    margin-bottom: 0em;
+    margin-left: 0px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(16, 16, 16, 0.8);
+    letter-spacing: 2px;
+}
+.subcontent{
+    color: #fff;
+    margin: 1em 0;
+    letter-spacing: 0px;
+    font-size: 25px;
+    }
+.subcontent span{
+    color:#000;
+    white-space: nowrap;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rotatingWord{display: inline;
+	text-indent: 10px;}
+.rotatingWord span{
+	position: absolute;
+	opacity: 0;
+	color: #146eb4;
+	-webkit-transform-origin: 10% 75%;
+	transform-origin: 10% 75%;
+	-webkit-animation: rotateWord 18s linear infinite 0s;
+	-ms-animation: rotateWord 18s linear infinite 0s;
+	animation: rotateWord 18s linear infinite 0s;
+}
+.rotatingWord span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+	-ms-animation-delay: 3s; 
+	animation-delay: 3s; 
+	color: #146eb4;
+}
+.rotatingWord span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+	-ms-animation-delay: 6s; 
+	animation-delay: 6s; 
+	color: #146eb4;	
+}
+.rotatingWord span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+	-ms-animation-delay: 9s; 
+	animation-delay: 9s; 
+	color: #146eb4;
+}
+.rotatingWord span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+	-ms-animation-delay: 12s; 
+	animation-delay: 12s; 
+	color: #146eb4;
+}
+.rotatingWord span:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+	-ms-animation-delay: 15s; 
+	animation-delay: 15s; 
+	color: #146eb4;
+}
+/*new animation called roateword creation code starts here*/
+
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    17% { opacity: 1; -ms-transform: rotate(0deg); }
+	19% { opacity: 1; -ms-transform: rotate(98deg); }
+	21% { opacity: 1; -ms-transform: rotate(86deg); }
+	23% { opacity: 1; -ms-transform: translateY(85px) rotate(83deg); }
+	25% { opacity: 0; -ms-transform: translateY(170px) rotate(80deg); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    17% { opacity: 1; -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+	19% { opacity: 1; -webkit-transform: rotate(98deg); transform: rotate(98deg); }
+	21% { opacity: 1; -webkit-transform: rotate(86deg); transform: rotate(86deg); }
+	23% { opacity: 1; -webkit-transform: translateY(85px) rotate(83deg); transform: translateY(85px) rotate(83deg); }
+	25% { opacity: 0; -webkit-transform: translateY(170px) rotate(80deg); transform: translateY(170px) rotate(80deg); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.socialIcons{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 1em 0 0;
+}
+.socialIcons li {
+    display: inline-block;
+    margin: 0 6px;
+}
+ul.socialIcons {
+        list-style-type: none;
+    }
+    ul.socialIcons li {
+        padding: 5px;
+        font-size: 16px;
+        background:transparent;
+        /*font-family: "Trebuchet MS", Arial, sans-serif;*/
+    }
+    ul.socialIcons li a {
+        height: 50px;
+        line-height: 50px;
+        display: inline-block;
+        padding-left: 12px; /* To sift text off the background-image */
+        /*color: #3E789F;*/
+        background: url("sprite.png") no-repeat; /* As all link share the same background-image */
+    }
+    ul.socialIcons li.facebook a {
+       /* background-position: 0 0;*/
+       background-position: -47px -28px; 
+width: 54px;
+height: 54px;
+    }
+    ul.socialIcons li.twitter a {
+        /*background-position: 0 -100px;*/
+        background-position: -410px -30px; 
+width: 58px;
+height: 52px;
+    }
+    ul.socialIcons li.instagram a {
+      /*  background-position: 0 -200px;*/
+      background-position: -230px -28px; 
+width: 55px;
+height: 56px;
+    }
+    ul.socialIcons li.linkedin a {
+        /*background-position: 0 -300px;*/
+        background-position: -167px -26px; 
+width: 58px;
+height: 58px;
+    }
+   
+    ul.socialIcons li.facebook a:hover {
+        /*background-position: 0 -50px;*/
+      background-position: -45px -94px; 
+width: 60px;
+height: 59px;
+transition:ease-out .5s;
+    }
+    ul.socialIcons li.twitter a:hover {
+       /* background-position: 0 -150px;*/
+       background-position: -411px -94px; 
+width: 57px;
+height: 58px;
+transition:ease-out .5s;
+    }
+    ul.socialIcons li.instagram a:hover {
+        /*background-position: 0 -250px;*/
+      background-position: -231px -97px; 
+width: 53px;
+height: 53px;
+transition:ease-out .5s;
+    }
+    ul.socialIcons li.linkedin a:hover {
+        /*background-position: 0 -350px;*/
+       background-position: -168px -95px; 
+width: 56px;
+height: 55px;
+transition:ease-out .5s;
+    }
+    
