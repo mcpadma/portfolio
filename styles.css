@@ -80,7 +80,7 @@
     font-size:20px;
 }
 .navbarStyle{
-    margin-bottom:0px;
+    margin-bottom:0px !important;
 }
 
 
@@ -263,4 +263,116 @@ width: 56px;
 height: 55px;
 transition:ease-out .5s;
     }
+/*banner style ends here*/
+
+/*about style starts here*/
+.descDiv{
+    margin-top:2%;
+}
+h3.caption{
     
+    text-align: center;
+    font-size: 40px;
+    color: #7d3f98;
+    border-bottom: 1px dotted #7d3f98;
+    width: 19%;
+    margin: 0 auto 1em;
+    text-transform: uppercase;
+    
+}
+.profileImg{
+    /*background: url(banner1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	min-height:770px;*/
+    vertical-align:middle;
+    width: 100%;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #ccc;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-color: #ff9900 !important;
+}
+ul{
+    list-style-type: none;
+    line-height: 2.5;
+    padding-left: 15px;
+}
+.carousel-indicators {
+  position: absolute;
+		bottom: 10px;
+		left: 50%;
+		z-index: 15;
+		width: 60%;
+        bottom:-80px !important;
+		padding-left: 0;
+		margin-left: -30%;
+		text-align: center;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+#dob{
+padding-left:100px;
+}
+#mobno{
+padding-left:90px;
+}
+#exp{
+padding-left:50px;
+}
+#addr{
+padding-left:72px;
+}
+#mail{
+padding-left:90px;
+}
+#site{
+padding-left:75px;
+}
+h3.headline{
+   font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #146eb4;
+    margin-bottom: .5em;
+}
+.infoBtn{
+    background-color:#146eb4;
+    color:#fff;
+    border:1px solid #146eb4;
+    /*border-color: #146eb4;*/
+    padding:2%;
+    font-weight:bold;
+}
+button.infoBtn:hover{
+    background-color:#ff9900;
+    border:1px solid #ff9900;
+}
+.expDesc{
+    text-transform: capitalize;
+    color: #252323;
+    margin-bottom: 1em;
+}
+p.content{
+line-height: 15px;
+    color: #212121;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /*border-top: 1px dotted #646464;
+    border-bottom: 1px dotted #646464;*/
+}
